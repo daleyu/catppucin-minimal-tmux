@@ -1,46 +1,15 @@
-<!-- markdownlint-disable -->
-<h3 align="center">
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
- Catppuccin for <a href="https://github.com/tmux/tmux">Tmux</a>
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-</h3>
+# A Minimal Catppucin theme for [tmux](https://github.com/tmux/tmux/wiki)
 
-<p align="center">
-    <a href="https://github.com/catppuccin/tmux/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/tmux?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tmux/issues"><img src="https://img.shields.io/github/issues/catppuccin/tmux?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tmux/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/tmux?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-</p>
+[Catppucin-minimal-tmux](https://github.com/daleyu/catppucin-minimal-tmux) theme for TMUX with silent colors.
 
-<p align="center">
-  <img src="./assets/preview.webp"/>
-</p>
-<!-- markdownlint-enable -->
+Forked from [catppucin/tmux](https://github.com/catppuccin/tmux).
 
 ## Themes
 
 <details>
-<summary>🌻 Latte</summary>
-
-![Latte Flavor Preview](./assets/latte.webp)
-
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-
-![Frappe Flavor Preview](./assets/frappe.webp)
-
-</details>
-<details>
 <summary>🌺 Macchiato</summary>
 
 ![Macchiato Flavor Preview](./assets/macchiato.webp)
-
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-
-![Mocha Flavor Preview](./assets/mocha.webp)
 
 </details>
 
@@ -124,12 +93,6 @@ set -gF status-style "bg=#{@ctp_bg},fg=#{@ctp_fg}"
 set -gF window-status-format "#[bg=#{@ctp_surface_1},fg=#{@ctp_fg}] ##I ##T "
 set -gF window-status-current-format "#[bg=#{@ctp_mauve},fg=#{@ctp_crust}] ##I ##T "
 ```
-
-### Upgrading from v0.3
-
-Breaking changes have been introduced since 0.3, to understand how to migrate
-your configuration, see pinned issue [#487](https://github.com/catppuccin/tmux/issues/487).
-
 ## Recommended Default Configuration
 
 This configuration shows some customisation options, that can be further
@@ -184,6 +147,7 @@ run ~/.config/tmux/plugins/tmux-plugins/tmux-battery/battery.tmux
 
 ## 💝 Thanks to
 
+Catppucin Team for making their theme open sourced
 - [Pocco81](https://github.com/Pocco81)
 - [vinnyA3](https://github.com/vinnyA3)
 - [rogeruiz](https://github.com/rogeruiz)
